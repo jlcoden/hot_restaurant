@@ -1,10 +1,6 @@
 // Dependencies 
 const express = require('express');
-<<<<<<< HEAD
-var path = require('path')
-=======
 const path = require('path');
->>>>>>> 411a9eaac8a6a76b1dde52084de4d4fa91e8a001
 
 
 // Sets up the Express App
