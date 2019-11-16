@@ -1,10 +1,6 @@
 // Dependencies 
 const express = require('express');
-<<<<<<< HEAD
-var path = require('path')
-=======
 const path = require('path');
->>>>>>> 411a9eaac8a6a76b1dde52084de4d4fa91e8a001
 
 
 // Sets up the Express App
@@ -45,7 +41,8 @@ app.get("/tables", function(req, res) {
 app.get("/reservations", function(req, res){
     res.sendFile(path.join(__dirname, "reservation.html"));
 })
-  
+
+
 
 // Start listening on port 8080
 app.listen(PORT, function(){
