@@ -1,0 +1,9 @@
+.style-list-item{
+    position: relative;
+    display: block;
+    padding: 20px 15px;
+    margin-bottom: 10px; 
+    font-size: 2em;
+    background-color: rgb(235, 235, 235); 
+    border: 1px solid #ddd;
+}
