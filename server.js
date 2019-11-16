@@ -1,13 +1,13 @@
-// Required dependencies 
+// Dependencies 
 const express = require('express');
+const path = path('path');
 
 
-// Set port for express server
-const PORT = 8080;
-
-
-// Configured the Express application
+// Sets up the Express App
+const PORT = 3000;
 const app = express();
+
+
 
 // Start listening on port 8080
 app.listen(PORT, function(){
